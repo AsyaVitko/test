@@ -1,4 +1,8 @@
-@import url(https://asyavitko.github.io/test/)
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
 
 .flex-container {
           display: flex;
