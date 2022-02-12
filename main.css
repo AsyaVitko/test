@@ -1,14 +1,37 @@
-.flex-container {
-          display: flex;
-          flex-wrap: nowrap;
-          background-color: orange;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap')
 
-      .flex-container > div {
-          background-color: grey;
-          width: 200px;
-          margin: 10px;
-          text-align: center;
-          line-height: 75px;
-          font-size: 30px;
-      }
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+p {
+    color:blue;
+}
+
+div {
+    background-color: white;
+}
+
+.background-image-class {
+    background-image: url(https://placeimg.com/400/200/any); 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar ul {
+    /* 
+        Remove bullet points.
+    */
+    list-style: none;
+    width: 500px;
+    margin: 0 auto;
+    /* 
+        No padding.
+    */
+    padding: 0;
+    /* 
+        For navbars use background color that stands out.
+    */
+    background-color: blue;
+    text-align: center;
+}
