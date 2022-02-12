@@ -12,6 +12,12 @@ div {
     background-color: white;
 }
 
+.background-image-class {
+    background-image: url(https://pixabay.com/illustrations/music-melody-old-fashioned-1363069/); 
+    background-repeat: no-repeat;
+    color: white;
+}
+
 .navbar ul {
     /* 
         Remove bullet points.
