@@ -12,6 +12,10 @@ div {
     background-color: white;
 }
 
+#H {
+   text-align: center;
+}
+
 .navbar ul {
     /* 
         Remove bullet points.
@@ -26,6 +30,6 @@ div {
     /* 
         For navbars use background color that stands out.
     */
-    background-color: black;
+    background-color: blue;
     text-align: center;
 }
